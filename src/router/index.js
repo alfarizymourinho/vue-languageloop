@@ -2,6 +2,9 @@ import { createWebHistory, createRouter } from "vue-router";
 // import Login from "../views/Login.vue";
 import Home from "../views/Home.vue"
 import Materi from "../views/Materi.vue"
+import Pemula from "../views/Pemula.vue"
+import Suhu from "../views/Suhu.vue"
+import Sepuh from "../views/Sepuh.vue"
 // import Register from "../views/Register.vue";
 // import Produk from "../views/Produk.vue";
 // import singleproduk from "../views/SingleProduk.vue"
@@ -22,6 +25,21 @@ const routes = [
         path: "/materi",
         name: "Materi",
         component: Materi,
+    },
+    {
+        path: "/pemula",
+        name: "Pemula",
+        component: Pemula,
+    },
+    {
+        path: "/suhu",
+        name: "Suhu",
+        component: Suhu,
+    },
+    {
+        path: "/suhu",
+        name: "Suhu",
+        component: Suhu,
     },
     // {
     //     path: "/register",

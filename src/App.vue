@@ -18,7 +18,7 @@ import Materi from './views/Materi.vue'
     components : {
     NavbarComponent,
     FooterComponent,
-    Home
+ 
 }
   }
   </script>
