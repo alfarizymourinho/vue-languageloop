@@ -1,10 +1,13 @@
 import { createWebHistory, createRouter } from "vue-router";
 // import Login from "../views/Login.vue";
+import Admin from "../views/Admin.vue"
 import Home from "../views/Home.vue"
 import Materi from "../views/Materi.vue"
 import Pemula from "../views/Pemula.vue"
 import Suhu from "../views/Suhu.vue"
 import Sepuh from "../views/Sepuh.vue"
+import Quiz from "../views/Quiz.vue"
+import Komentar from "../views/Komentar.vue"
 // import Register from "../views/Register.vue";
 // import Produk from "../views/Produk.vue";
 // import singleproduk from "../views/SingleProduk.vue"
@@ -16,6 +19,11 @@ import Sepuh from "../views/Sepuh.vue"
 // import order from "../views/Order-confirmed.vue"
 
 const routes = [
+    {
+        path: "/admin",
+        name: "Admin",
+        component: Admin,
+    },
     {
         path: "/",
         name: "Home",
@@ -37,9 +45,19 @@ const routes = [
         component: Suhu,
     },
     {
-        path: "/suhu",
-        name: "Suhu",
-        component: Suhu,
+        path: "/sepuh",
+        name: "Sepuh",
+        component: Sepuh,
+    },
+    {
+        path: "/quiz",
+        name: "Quiz",
+        component: Quiz,
+    },
+    {
+        path: "/komentar",
+        name: "Komentar",
+        component: Komentar,
     },
     // {
     //     path: "/register",
