@@ -1,5 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
-// import Login from "../views/Login.vue";
+import Login from "../views/Login.vue";
 import Admin from "../views/Admin.vue"
 import Home from "../views/Home.vue"
 import Materi from "../views/Materi.vue"
@@ -59,11 +59,11 @@ const routes = [
         name: "Komentar",
         component: Komentar,
     },
-    // {
-    //     path: "/register",
-    //     name: "Register",
-    //     component: Register,
-    // },
+    {
+        path: "/login",
+        name: "Login",
+        component: Login,
+    },
     // {
     //     path: '/produk',
     //     name: 'Produk',
